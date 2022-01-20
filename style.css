@@ -31,8 +31,12 @@
 }
 
 .center {
-  padding: 350px 0;
+  padding: 300px 0;
   text-align: center;
+  color: black;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  outline-color: white;
+  font-family: Lucida Console, Courier New, monospace;
 }
 
 body, html {
