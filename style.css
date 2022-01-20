@@ -50,3 +50,14 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.information-table {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 25px;
+  background: rgb(41, 172, 224);
+  padding: 20px;
+  width: 700px;
+  height: flexible;
+  font-family: Lucida Console, Courier New, monospace;
+}
