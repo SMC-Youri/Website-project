@@ -61,3 +61,26 @@ html {
   height: flexible;
   font-family: Lucida Console, Courier New, monospace;
 }
+
+.about-table {
+  margin-top: 250px;
+  align-items: center;
+  border-radius: 25px;
+  background: rgb(41, 172, 224);
+  padding: 20px;
+  width: 700px;
+  height: flexible;
+  font-family: Lucida Console, Courier New, monospace;
+    box-shadow: 5px 10px lightcyan;
+}
+
+.youri{
+text-align: center;
+font-family: Lucida Console, Courier New, monospace;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
