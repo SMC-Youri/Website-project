@@ -71,7 +71,6 @@ html {
   width: 700px;
   height: flexible;
   font-family: Lucida Console, Courier New, monospace;
-    box-shadow: 5px 10px lightcyan;
 }
 
 .youri{
@@ -84,3 +83,4 @@ font-family: Lucida Console, Courier New, monospace;
   margin-left: auto;
   margin-right: auto;
 }
+
