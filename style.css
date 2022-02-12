@@ -74,12 +74,22 @@ html {
 }
 
 .youri{
-text-align: center;
-font-family: Lucida Console, Courier New, monospace;
+  text-align: center;
+  font-family: Lucida Console, Courier New, monospace;
 }
 
 .image {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+textarea {
+  resize: none;
+  width: 300px;
+  height: 150px;
+}
+
+.contact{
+  width: 298px;
 }
