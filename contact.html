@@ -23,7 +23,7 @@
     <th><p style="font-size:25px">Contact me!</p></th>
   <tr>
   <td>
-<form method="post" action="mailto:110997@st-maartenscollege.nl">
+<form method="post" onsubmit="alert('Sending mail is unavailable.');return false" action="mailto:110997@st-maartenscollege.nl">
   <table align="center">
     <tr><td>
       <label for="Name">Name:</label></td><td>
@@ -35,7 +35,7 @@
     </td></tr>
     <tr><td>
       <label for="Phone">Telephone:</label></td><td>
-      <input class="contact" type="tel" id="Phone" pattern="06 [0-9]{8}" name="Phone" placeholder="Example: 06 12345678" required>
+      <input class="contact" type="tel" id="Phone" pattern="06[0-9]{8}" name="Phone" placeholder="Example: 0612345678" required>
     </td></tr>
     <tr><td>
       <label for="Nationality">Nationality:</label></td><td>
@@ -288,7 +288,7 @@
     </td></tr>
     <tr><td></td>
     <td>
-     <p align="right"> <input type="submit" value="Submit"> </p>
+     <p align="right"> <input type="submit" value="Submit" > </p>
     </td></tr>
   </table>
 </form>
