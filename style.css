@@ -49,6 +49,18 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-repeat: repeat
+}
+
+@media screen and (max-width: 600px){
+  .navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  }
 }
 
 .information-table {
@@ -62,13 +74,13 @@ html {
   font-family: Lucida Console, Courier New, monospace;
 }
 
-.about-table {
+.contact-table {
   margin-top: 250px;
   align-items: center;
   border-radius: 25px;
   background: rgb(41, 172, 224);
   padding: 20px;
-  width: 700px;
+  width: flexible;
   height: flexible;
   font-family: Lucida Console, Courier New, monospace;
 }
@@ -87,10 +99,17 @@ html {
 
 textarea {
   resize: none;
-  width: 300px;
+  width: 97%;
   height: 150px;
 }
 
-.contact{
-  width: 298px;
+.about-table {
+  margin-top: 250px;
+  align-items: center;
+  border-radius: 25px;
+  background: rgb(41, 172, 224);
+  padding: 20px;
+  width: flexible;
+  height: flexible;
+  font-family: Lucida Console, Courier New, monospace;
 }
